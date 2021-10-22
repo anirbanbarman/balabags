@@ -23,13 +23,21 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './footer/footer.component';
+import { OurStoryComponent } from './our-story/our-story.component';
+import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
+import { ProductsComponent } from './products/products.component';
+import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    OurStoryComponent,
+    HowWeWorkComponent,
+    ProductsComponent,
+    KnowYourPricingComponent
   ],
   imports: [
     BrowserModule,
