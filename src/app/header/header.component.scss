@@ -1,0 +1,22 @@
+nav{
+  text-transform: uppercase;
+  font-family: 'auto';
+
+  background-color: #3c1919;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  /* font-weight: bold; */
+  font-size: 17px;
+  ul>li{
+    margin: 0 1.5em;
+  }
+  input{
+    margin: 0 1em;
+  }
+  form>button{
+    border: 1px solid white;
+    color: white;
+  }
+}

@@ -1,0 +1,36 @@
+div>span{
+  font-size: 5em;
+  color: #8f1111e3;
+}
+
+#services{
+  background-image: linear-gradient(to right, #ffffff14, #ffbaad42);
+  border-radius: 1em;
+}
+
+.our-values{
+  background-image: linear-gradient(to bottom, #916d6d14, #ffffff05);
+  border-radius: 1em;
+}
+
+#about>.row{
+  background-image: linear-gradient(to left, #916d6d14, #ffffff05);
+    border-radius: 1em;
+}
+.bg-image>{
+  img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+  }
+}
+
+h1,h2{
+  font-family: auto;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #4a0404;
+}
+
+
+
