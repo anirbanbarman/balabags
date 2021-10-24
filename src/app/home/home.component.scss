@@ -1,20 +1,20 @@
 div>span{
   font-size: 5em;
-  color: #8f1111e3;
+  color: #14236de3;
 }
 
 #services{
-  background-image: linear-gradient(to right, #ffffff14, #ffbaad42);
+  // background-image: linear-gradient(to right, #ffffff14, #ffbaad42);
   border-radius: 1em;
 }
 
 .our-values{
-  background-image: linear-gradient(to bottom, #916d6d14, #ffffff05);
+  // background-image: linear-gradient(to bottom, #916d6d14, #ffffff05);
   border-radius: 1em;
 }
 
 #about>.row{
-  background-image: linear-gradient(to left, #916d6d14, #ffffff05);
+  // background-image: linear-gradient(to left, #916d6d14, #ffffff05);
     border-radius: 1em;
 }
 .bg-image>{
@@ -27,13 +27,25 @@ div>span{
 
 h1,h2{
   font-family: auto;
-  font-size: 50px;
+
   text-transform: uppercase;
-  color: #4a0404;
+  color: #ffffff;
+}
+h3{
+  font-family: auto;
+ 
+  text-transform: uppercase;
+
 }
 
 .carousel-inner{
   margin-top: 1px;
 }
 
+.animated {
+  visibility: visible !important;
+}
+.hide-on-init {
+  visibility: hidden;
+}
 

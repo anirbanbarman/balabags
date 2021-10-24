@@ -28,6 +28,7 @@ import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
 import { ProductsComponent } from './products/products.component';
 import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,6 +59,7 @@ import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.
     MdbTooltipModule,
     MdbValidationModule,
     BrowserAnimationsModule,
+  
 
   ],
   providers: [],
