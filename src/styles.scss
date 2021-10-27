@@ -12,8 +12,30 @@
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 
 @import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 
 body{
   background-image: linear-gradient(to right, #ddefff6e, #5798e961);
+}
+
+.owl-theme .owl-nav{
+
+position: absolute;
+margin-top: -15em;
+width: 100%;
+.owl-prev{
+  float: left;
+}
+.owl-next{
+  float: right;
+}
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+color: #FFF;
+
+background: #091f3b;
+
 }
 

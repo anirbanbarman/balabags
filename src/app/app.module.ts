@@ -27,6 +27,7 @@ import { OurStoryComponent } from './our-story/our-story.component';
 import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
 import { ProductsComponent } from './products/products.component';
 import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -59,6 +60,7 @@ import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.
     MdbTooltipModule,
     MdbValidationModule,
     BrowserAnimationsModule,
+    CarouselModule
   
 
   ],
