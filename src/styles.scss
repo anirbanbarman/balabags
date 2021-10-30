@@ -16,10 +16,10 @@
 @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 
 body{
-  background-image: linear-gradient(to right, #ddefff6e, #5798e961);
+  background-image: linear-gradient(to right, #dedfde6e, #dadbdd61);
 }
 
-.owl-theme .owl-nav{
+.owl-theme .owl-nav{  
 
 position: absolute;
 margin-top: -15em;
@@ -37,5 +37,13 @@ color: #FFF;
 
 background: #091f3b;
 
+}
+
+.accordion-button, .accordion-body{
+
+  background-color: #f1f1f1 !important;
+}
+.card-body{
+  background: #ffffff;
 }
 

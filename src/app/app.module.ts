@@ -60,7 +60,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     MdbTooltipModule,
     MdbValidationModule,
     BrowserAnimationsModule,
-    CarouselModule
+    CarouselModule,
   
 
   ],

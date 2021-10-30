@@ -1,4 +1,4 @@
-ul{
+.product-container,._product-container{
     list-style: none;
     cursor: pointer;
     padding-left: 0;
@@ -11,6 +11,10 @@ ul{
 }
 li:hover{
     border-bottom: 1px solid black;
+}
+ul{
+    list-style: none;
+    cursor: pointer;
 }
 .options>li{
     
@@ -49,6 +53,15 @@ border-radius: 5px;
     }
 
 }
+.card-text{
+    font-size: .8rem;
+}
+
+.accordion-button, .accordion-body{
+
+   background-color: #f1f1f1 !important;
+}
+
 @media only screen and (max-width: 600px) {
     .product-container{
         display: none !important;
