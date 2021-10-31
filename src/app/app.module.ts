@@ -28,6 +28,7 @@ import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
 import { ProductsComponent } from './products/products.component';
 import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     OurStoryComponent,
     HowWeWorkComponent,
     ProductsComponent,
-    KnowYourPricingComponent
+    KnowYourPricingComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,

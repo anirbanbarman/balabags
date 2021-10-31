@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import * as Chart from 'chart.js';
+import { Component, OnInit, ViewChild } from '@angular/core';
+// import { Chart } from 'chart.js';
+import Chart from 'chart.js/auto'
 
 
 
@@ -9,6 +10,10 @@ import * as Chart from 'chart.js';
   styleUrls: ['./know-your-pricing.component.scss']
 })
 export class KnowYourPricingComponent implements OnInit {
+  canvas: any;
+  ctx: any;
+  @ViewChild('mychart') mychart:any;
+  showChart: boolean=false;
 
   constructor() { }
 
@@ -18,34 +23,38 @@ export class KnowYourPricingComponent implements OnInit {
 
   showGraph(){
 
-//     var ctx = document.getElementById("myChart");
-// var myChart = new Chart(ctx, {
-//   type: 'pie',
-//   data: {
-//     labels: ['OK', 'WARNING', 'CRITICAL', 'UNKNOWN'],
-//     datasets: [{
-//       label: '# of Tomatoes',
-//       data: [12, 19, 3, 5],
-//       backgroundColor: [
-//         'rgba(255, 99, 132, 0.5)',
-//         'rgba(54, 162, 235, 0.2)',
-//         'rgba(255, 206, 86, 0.2)',
-//         'rgba(75, 192, 192, 0.2)'
-//       ],
-//       borderColor: [
-//         'rgba(255,99,132,1)',
-//         'rgba(54, 162, 235, 1)',
-//         'rgba(255, 206, 86, 1)',
-//         'rgba(75, 192, 192, 1)'
-//       ],
-//       borderWidth: 1
-//     }]
-//   },
-//   options: {
-//    	//cutoutPercentage: 40,
-//     responsive: false,
+    this.showChart=!this.showChart;
 
-//   }
-// });
+    this.canvas = this.mychart.nativeElement;
+    this.ctx = this.canvas.getContext('2d');
+var myChart = new Chart(this.ctx, {
+  type: 'pie',
+  data: {
+    labels: ['Labour cost', 'Material cost'],
+    datasets: [{
+      label: '# of Tomatoes',
+      data: [70, 30],
+      backgroundColor: [
+        '#c70000',
+        '#799bd9',
+
+      ],
+      borderColor: [
+        '#c70000',
+        '#799bd9',
+
+
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+   	//cutoutPercentage: 40,
+    responsive: false,
+
+  }
+});
+
+
   }
 }

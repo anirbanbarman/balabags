@@ -1,3 +1,4 @@
+import { ProductDetailsComponent } from './product-details/product-details.component';
 import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'product', component: ProductsComponent },
   { path: 'how-we-work', component: HowWeWorkComponent },
   { path: 'know-your-pricing', component: KnowYourPricingComponent },
+  { path: 'product-details', component: ProductDetailsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 
 

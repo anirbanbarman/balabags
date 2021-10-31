@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, enableProdMode } from '@angular/core';
 
 @Component({
   selector: 'app-products',
@@ -10,6 +10,10 @@ export class ProductsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
+
+
 
 }

@@ -5,9 +5,9 @@
     li{
         margin: 0 1em;
         height: 20px;
-        
+
     }
-    
+
 }
 li:hover{
     border-bottom: 1px solid black;
@@ -17,11 +17,11 @@ ul{
     cursor: pointer;
 }
 .options>li{
-    
+
     margin: 1em 0;
         font-size: 13px;
         text-align: start;
-    
+
 }
 .options>li:hover{
    border: none;
@@ -41,14 +41,14 @@ border-radius: 5px;
     li{
         width: 100px;
         height: 100px;
-       
+
         span{
             margin: 0px 2.4em;
                 font-size: 14px;
                 margin-top: -25px;
                 position: absolute;
         }
-        
+
 
     }
 
@@ -59,7 +59,7 @@ border-radius: 5px;
 
 .accordion-button, .accordion-body{
 
-   background-color: #f1f1f1 !important;
+   background-color: #ffffff !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -70,3 +70,13 @@ border-radius: 5px;
         font-size: 12px;
     }
   }
+
+
+
+
+  h1,h2,h3,h4{
+    text-transform: uppercase;
+  }
+
+
+
