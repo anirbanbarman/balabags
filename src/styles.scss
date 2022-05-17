@@ -15,9 +15,6 @@
 @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
 @import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
 
-body{
-
-}
 
 .owl-theme .owl-nav{
 
@@ -46,4 +43,9 @@ background: #091f3b;
 .card-body{
   background: #ffffff;
 }
+body{
+  //  font-family: 'Catamaran', sans-serif
+}
 
+// font-family: 'Catamaran', sans-serif;
+// font-family: 'EB Garamond', serif;
