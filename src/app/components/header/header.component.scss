@@ -1,0 +1,33 @@
+.header{
+    height:8rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header-link{
+        text-transform: uppercase;
+        text-align: center;
+        align-self: center;
+        color:black
+    }
+}
+.active-dot{
+    height: 6px;
+    width: 6px;
+    border-radius: 50px;
+    background-color: #ff3b00;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    visibility:visible;
+}
+.hide{
+    visibility: hidden;
+}
+.active-text{
+    font-weight: bold;
+}

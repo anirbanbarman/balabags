@@ -1,22 +1,24 @@
-import { ProductDetailsComponent } from './product-details/product-details.component';
-import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.component';
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
-import { OurStoryComponent } from './our-story/our-story.component';
-import { ProductsComponent } from './products/products.component';
-
-const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'our-story', component: OurStoryComponent },
-  { path: 'product', component: ProductsComponent },
-  { path: 'how-we-work', component: HowWeWorkComponent },
-  { path: 'know-your-pricing', component: KnowYourPricingComponent },
-  { path: 'product-details', component: ProductDetailsComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
 
 
+const routes: Routes = [{ path: 'home', loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
+
+{ path: 'about-us', loadChildren: () => import('./pages/about-us/about-us.module').then(m => m.AboutUsModule) },
+
+{ path: 'shop', loadChildren: () => import('./pages/shop/shop.module').then(m => m.ShopModule) },
+
+{ path: 'services', loadChildren: () => import('./pages/services/services.module').then(m => m.ServicesModule) },
+
+{ path: 'pricing', loadChildren: () => import('./pages/pricing/pricing.module').then(m => m.PricingModule) },
+
+{ path: 'contact', loadChildren: () => import('./pages/contact/contact.module').then(m => m.ContactModule) },
+{
+  path: '',
+  redirectTo: 'home',
+  pathMatch: 'full'
+}
 ];
 
 @NgModule({

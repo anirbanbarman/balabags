@@ -3,9 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
 
-import { HomeComponent } from './home/home.component';
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
 import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
@@ -22,26 +20,16 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FooterComponent } from './footer/footer.component';
-import { OurStoryComponent } from './our-story/our-story.component';
-import { HowWeWorkComponent } from './how-we-work/how-we-work.component';
-import { ProductsComponent } from './products/products.component';
-import { KnowYourPricingComponent } from './know-your-pricing/know-your-pricing.component';
-import { CarouselModule } from 'ngx-owl-carousel-o';
-import { ProductDetailsComponent } from './product-details/product-details.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
-    HomeComponent,
-    OurStoryComponent,
-    HowWeWorkComponent,
-    ProductsComponent,
-    KnowYourPricingComponent,
-    ProductDetailsComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -62,7 +50,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     MdbTooltipModule,
     MdbValidationModule,
     BrowserAnimationsModule,
-    CarouselModule,
+
   
 
   ],
