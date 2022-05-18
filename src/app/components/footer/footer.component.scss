@@ -1,0 +1,44 @@
+.footer .logo{
+    width: 100px;
+    margin-bottom: 30px;
+  }
+  
+.sub{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin: 30px auto 60px;
+  }
+  .sub input[type="text"]{
+    padding: 15px;
+    border: 1px solid #1e2d5e;
+  }
+  .sub button{
+    background: #1e2d5e;
+    color: #fff;
+    padding: 17.6px 25px;
+    border: none;
+    font-size: 17px;
+  }
+  .footer{
+    padding: 80px 0;
+    background: #f3f3f4;
+  }
+  .footer ul{
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    margin: auto;
+  }
+  .footer ul a{
+    color: #000;
+    font-size: 1.1rem;
+  }
+  .footer ul li:not(:last-child){
+    margin-right: 40px;
+  }
+  .footer ul li i{
+    color: #1e2d5e;
+    font-size: 2rem;
+  }
+  

@@ -1,15 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '~@fortawesome/fontawesome-free/scss/solid.scss';
-@import '~@fortawesome/fontawesome-free/scss/regular.scss';
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+// @import '~@fortawesome/fontawesome-free/scss/solid.scss';
+// @import '~@fortawesome/fontawesome-free/scss/regular.scss';
+// @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=IBM+Plex+Serif:wght@300&family=Libre+Baskerville&family=Playfair+Display&family=Roboto+Slab:wght@300;400&family=Tajawal:wght@800&display=swap');
 @import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '~@fortawesome/fontawesome-free/scss/solid.scss';
-@import '~@fortawesome/fontawesome-free/scss/regular.scss';
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+// @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+// @import '~@fortawesome/fontawesome-free/scss/solid.scss';
+// @import '~@fortawesome/fontawesome-free/scss/regular.scss';
+// @import '~@fortawesome/fontawesome-free/scss/brands.scss';
 
 @import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
 @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
@@ -45,6 +45,59 @@ background: #091f3b;
 }
 body{
   //  font-family: 'Catamaran', sans-serif
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+  font-family: 'Catamaran', sans-serif;
+  color: #a1969a;
+  font-size: 1.2rem;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'EB Garamond', serif;
+  margin: 0;
+  padding: 0;
+  color: #1e2d5e;
+}
+h2{
+  font-size:3rem;
+  line-height:1;
+  letter-spacing: 2.5px;
+}
+section{
+  position:relative;
+}
+a, a:hover{
+  text-decoration:none;
+  transition:0.4s all ease-in-out;
+}
+a:focus, button:focus{
+    outline: none;
+}
+span{
+   transition:0.4s all ease-in-out;
+}
+p{
+  padding:0;
+  margin:0;
+}
+ul {
+  margin:0;
+  padding:0;
+}
+ul li{
+  list-style:none;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
 }
 
 // font-family: 'Catamaran', sans-serif;
