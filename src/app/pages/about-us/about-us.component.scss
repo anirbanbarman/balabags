@@ -126,11 +126,10 @@ input:focus{
   margin: auto;
 }
 .each-dtl:hover{
-  flex: 0 0 45%;
+  flex: 0 0 35%;
   background: #1e2d5e;
   position: relative;
   z-index: 9;
-  height: 500px;
 }
 .each-dtl:hover h3{
   color: #fff;
