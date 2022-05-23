@@ -1,0 +1,163 @@
+.about-us {
+    height: 300px;
+    background-color: #f3f3f4;
+    background-image: url(/assets/images/about-us-left-side-header-image.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 200px 180px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+    .about-us-bg-right {
+      width: 250px;
+      position: absolute;
+      bottom: -70px;
+      right: 0;
+    }
+    .title{
+       text-align: center;
+       text-transform: uppercase;
+       .header{
+        font-family: "EB Garamond", serif;
+        font-weight: 600;
+        color: #1e2d5e;
+        letter-spacing: 3px;
+       }
+    }
+  }
+  
+  /*=============== general-css ==================*/
+  y
+  section{
+    position:relative;
+  }
+  a, a:hover{
+    text-decoration:none;
+    transition:0.4s all ease-in-out;
+  }
+  a:focus, button:focus{
+      outline: none;
+  }
+  span{
+     transition:0.4s all ease-in-out;
+  }
+  p{
+    padding:0;
+    margin:0;
+  }
+  ul {
+    margin:0;
+    padding:0;
+  }
+  ul li{
+    list-style:none;
+  }
+  input:focus{
+      outline: none;
+      box-shadow: none;
+  }
+  /*=============== general-css ==================*/
+  
+  /* ==================================== */
+
+  .each-team{
+   position: relative;
+   margin:0 10px 50px;
+   height: 350px;
+   background: #f3f3f4;
+  }
+  .each-team img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .team-txt{
+    background: #fff;
+    padding: 20px ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    text-align: left;
+  }
+  .team-txt h4{
+    color: #000;
+    position: relative;
+    padding-left: 15px;
+    font-size: 2rem;
+    padding-right: 30px;
+  }
+  .team-txt h4::before{
+    position: absolute;
+    content: '';
+    left: -10px;
+    top: 50%;
+    height: 2px;
+    background: #000;
+    width: 10px;
+  }
+  .team-txt p{
+    color: #5c5964;
+    font-size: 20px;
+  }
+  .each-team:hover .team-txt{
+    opacity: 1;
+  }
+ .cata{
+     margin: 40px 0 50px;
+     ul{
+         display: flex;
+         justify-content: space-between;
+         background: #f3f3f4;
+         padding: 20px 40px;
+         li{
+             text-transform: uppercase;
+             color: #000;
+             position: relative;
+             padding: 20px 0;
+             font-weight: 500;
+             cursor: pointer;
+             &.active{
+                &:before{
+                    position: absolute;
+                    content: '';
+                    height: 10px;
+                    width: 10px;
+                    border-radius: 50%;
+                    background: #000;
+                    bottom:0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
+             }
+            
+         }
+     }
+ }
+
+ .filter{
+     background: #f3f3f4;
+     height: 100%;
+     ul{
+         column-count: 3;
+         li{
+             padding: 15px;
+             img{
+                 width:80%;
+                 margin: auto;
+             }
+             span{
+                text-transform: uppercase;
+                color: #000;
+                line-height: 0;
+                display: inherit;
+                font-size: 12px;
+             }
+         }
+     }
+ }
