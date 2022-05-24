@@ -14,12 +14,22 @@
     .about-us-bg-right {
       width: 250px;
       position: absolute;
-      bottom: -70px;
-      right: 0;
+      top: -14px;
+      right: -30px;
+      transform: rotate(-35deg);
+      filter: opacity(0.2);  
     }
     .title{
        text-align: center;
        text-transform: uppercase;
+       p{
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+        letter-spacing: 2px;
+       }
+       h2{
+         font-size: 3.4rem;
+       }
        .header{
         font-family: "EB Garamond", serif;
         font-weight: 600;
@@ -108,19 +118,20 @@
     opacity: 1;
   }
  .cata{
-     margin: 40px 0 50px;
+     margin-bottom:50px;
      ul{
          display: flex;
          justify-content: space-between;
          background: #f3f3f4;
          padding: 20px 40px;
          li{
-             text-transform: uppercase;
-             color: #000;
-             position: relative;
-             padding: 20px 0;
-             font-weight: 500;
-             cursor: pointer;
+          text-transform: uppercase;
+          color: #000;
+          position: relative;
+          padding: 20px 0;
+          font-weight: 600;
+          font-size: 1.5rem;
+          cursor: pointer;
              &.active{
                 &:before{
                     position: absolute;
@@ -143,12 +154,35 @@
  .filter{
      background: #f3f3f4;
      height: 100%;
+     padding: 15px;
+     input[type="text"]{
+      padding: 10px;
+      border: 1px solid #1e2d5e;
+      color: #5c5964;
+      width: 100%;
+     }
+     p{
+       color: #000;
+       padding: 20px 0;
+     }
      ul{
-         column-count: 3;
+      display: flex;
+      flex-wrap: wrap;
          li{
-             padding: 15px;
+           &.active{
+             background: #fff;
+           }
+          text-align: center;
+          width: 33%;
+          padding-bottom: 15px;
+          transition: 0.4s;
+          cursor: pointer;
+            cursor: pointer;
+            &:hover{
+              background:#fff;
+            }
              img{
-                 width:80%;
+                 width:95%;
                  margin: auto;
              }
              span{
@@ -157,7 +191,37 @@
                 line-height: 0;
                 display: inherit;
                 font-size: 12px;
+                margin-top: -10px;
              }
          }
      }
+ }
+ .pagination{
+   margin: 20px 0 100px;
+   li{
+     border: 1px solid #1e2d5e;
+     color: #1e2d5e;
+     text-transform: uppercase;
+     margin-right: 15px;
+     
+   }
+ }
+ .page-item.active .page-link {
+  background: #1e2d5e !important;
+  color: #fff !important;
+  border-radius: 0;
+ }
+
+ @media only screen and (max-width:480px) {
+   .cata {
+     ul{
+       overflow-x:auto;
+       li{
+         font-size: 18px;
+         &:not(:last-child){
+           margin-right:35px
+         }
+       }
+     }
+   }
  }
