@@ -41,6 +41,10 @@
     color: #1e2d5e;
     font-size: 2rem;
   }
+  i{
+    color: #ffffff;
+    font-size: 1.8rem;
+  }
 
   @media only screen and (max-width:480px){
     .footer{
@@ -54,4 +58,11 @@
         }
       }
     }
+  }
+  h5{
+    color:white;
+    font-size: 14px;
+  }
+  li{
+    font-size: 13px;
   }
