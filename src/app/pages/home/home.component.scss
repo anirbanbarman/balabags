@@ -265,7 +265,7 @@ width: 100%;
   top: 6px;
 }
 .choose{
-  padding: 150px 0;
+  padding: 10px 0;
 }
 .sample{
   background: #eee;
@@ -568,5 +568,45 @@ display: block;
               letter-spacing: 2px;
           }
       }
+  }
+}
+
+
+
+
+
+.grab-card{
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+  background-color: white;
+ 
+  border: 1px solid #c3b4b4;
+  position: relative;
+  border-radius: 10px;
+
+
+  img{
+    position: absolute;
+    width: 150px;
+    height: 160px;
+    top: -85px;
+    left: 100px;
+
+  }
+  button{
+    border: 1px solid #397b7f;
+    padding: 5px 10px;
+    background: white;
+  }
+  p{
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 4rem;
+    padding: 20px;
+    div{
+      margin: auto 20px;
+    }
+
   }
 }
