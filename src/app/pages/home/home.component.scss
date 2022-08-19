@@ -93,7 +93,8 @@
 //   }
   .about{
     margin: 70px 0 100px;
-    padding: 50px 0;
+    padding: 40px 0;
+    background: #f3f3f4;
   }
   #bl{
     position: absolute;
@@ -119,7 +120,7 @@
 }
 .abt-img{
   width: 82%;
-  height: 600px;
+  height: 400px;
 }
 .abt-img img{
   height: 100%;
@@ -127,21 +128,15 @@
   object-fit: cover;
 }
 .abt-dtls{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 44%;
-  position: absolute;
-  right: 0;
-  bottom: 30px;
+width: 100%;
 }
 .each-dtls{
-  width: 47%;
-  height: 300px;
+  height: 360px;
   color: #fff;
-  margin-bottom: 31px;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 20px;
+  border: 3px solid white;
+
 }
 .each-dtls h6{
   font-size: 1.5rem;
@@ -150,19 +145,20 @@
 .each-dtls p{
   color: #74a7cd;
   line-height: 1.2;
-  margin: 20px 0 40px;
+  margin: 16px 0 30px;
+  height: 35%;
 }
-.each-dtls:nth-child(1), .each-dtls:nth-child(4){
+.each-dtls:nth-child(1), .each-dtls:nth-child(3){
   background: #1e2d5e;
 
 }
-.each-dtls:nth-child(1) p, .each-dtls:nth-child(4) p{
+.each-dtls:nth-child(1) p, .each-dtls:nth-child(3) p{
   color: #74a7cd;
 }
-.each-dtls:nth-child(2), .each-dtls:nth-child(3){
+.each-dtls:nth-child(2), .each-dtls:nth-child(4){
   background: #f1603f;
 }
-.each-dtls:nth-child(2) p, .each-dtls:nth-child(3) p{
+.each-dtls:nth-child(2) p, .each-dtls:nth-child(4) p{
   color: #f3b3ba;
 }
 .dtls-foo{
@@ -186,7 +182,7 @@
   font-size: 28px;
 }
 .gg{
-  padding-top: 60px;
+  // padding-top: 60px;
   color: #a299b6;
   line-height: 1.5;
   font-size: 1.4rem;
@@ -288,7 +284,7 @@
   padding: 50px 0;
 }
 .pricing.consult{
-  padding: 400px 0 200px;
+  padding: 30px 0 200px;
   #sd{
     left: auto;
     right: -200px;
@@ -311,7 +307,7 @@
 .logo{
   display: flex;
   justify-content: space-between;
-  padding-bottom: 100px;
+  padding: 50px;
 }
 .hd-wrap{
   position: relative;
@@ -510,6 +506,7 @@ display: block;
 }
 .pricing.consult{
   padding: 20px 0 120px;
+  
 }
 .logo{
     flex-wrap: wrap;
