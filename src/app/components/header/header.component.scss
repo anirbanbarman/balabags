@@ -1,10 +1,11 @@
 .header{
-    font-size: 17px;
-    height:8rem;
-    background-color: white;
+    font-size: 15px;
+    height:5rem;
+    background-color: #f2f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
     .header-link{
         min-width: 106px;
         text-transform: uppercase;
