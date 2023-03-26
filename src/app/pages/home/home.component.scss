@@ -374,11 +374,15 @@ width: 100%;
     }
   }
 }
-
+.new_header{
+  font-family: 'FontAwesome' !important;
+    padding: 15px;
+    font-size: 32px;
+}
 .pro-holder{
   display: flex;
   overflow: hidden;
-  height: 550px;
+  height: 500px;
   justify-content: space-between;
   position: relative;
 }
